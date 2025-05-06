@@ -3,30 +3,6 @@
   import viteLogo from "/vite.svg";
   import Counter from "./lib/Counter.svelte";
 
-  import { onMount } from "svelte";
-
-  onMount(() => {
-    Promise.all([
-      import("./assets/vendor/aos/aos.js"),
-      import("./assets/vendor/glightbox/js/glightbox.min.js"),
-      import("./assets/vendor/purecounter/purecounter_vanilla.js"),
-      new Promise((resolve, reject) => {
-        const script = document.createElement("script");
-        script.src = "./assets/vendor/swiper/swiper-bundle.min.js";
-        script.onload = resolve;
-        script.onerror = reject;
-        document.body.appendChild(script);
-      }),
-    ])
-      .then(() => {
-        // @ts-ignore
-        import("./assets/js/main.js"),
-        console.log("All theme scripts loaded after DOM is ready");
-      })
-      .catch((error) => {
-        console.error("Error loading scripts:", error);
-      });
-  });
 </script>
 
 <header id="header" class="header sticky-top">
