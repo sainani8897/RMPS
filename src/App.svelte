@@ -69,7 +69,7 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="cta-btn" href="index.html#appointment">Make an Appointment</a>
+      <a class="cta-btn" href="/#appointment">Make an Appointment</a>
     </div>
   </div>
 </header>
@@ -1661,7 +1661,7 @@
   <div class="container footer-top">
     <div class="row gy-4">
       <div class="col-lg-4 col-md-6 footer-about">
-        <a href="index.html" class="logo d-flex align-items-center">
+        <a href="/" class="logo d-flex align-items-center">
           <span class="sitename">Relex Man Power</span>
         </a>
         <div class="footer-contact pt-3">
