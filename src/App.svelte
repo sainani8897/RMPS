@@ -1,4 +1,6 @@
 <script>
+// @ts-nocheck
+
   import svelteLogo from "./assets/svelte.svg";
   import viteLogo from "/vite.svg";
   import Counter from "./lib/Counter.svelte";
@@ -14,7 +16,7 @@
         <i class="bi bi-clock me-1"></i> Monday - Saturday, 8AM to 10PM
       </div>
       <div class="d-flex align-items-center">
-        <i class="bi bi-phone me-1"></i> Call us now +1 5589 55488 55
+        <i class="bi bi-phone me-1"></i> Call us now +91 9704876041
       </div>
     </div>
   </div>
@@ -258,8 +260,7 @@
     <div class="container section-title" data-aos="fade-up">
       <h2>About Us<br /></h2>
       <p>
-        Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-        consectetur velit
+        Join us on this exciting journey and discover what makes special!
       </p>
     </div>
     <!-- End Section Title -->
@@ -491,8 +492,7 @@
     <div class="container section-title" data-aos="fade-up">
       <h2>Services</h2>
       <p>
-        Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-        consectetur velit
+        We offer a range of top-quality services tailored to meet your needs.
       </p>
     </div>
     <!-- End Section Title -->
@@ -608,8 +608,7 @@
     <div class="container section-title" data-aos="fade-up">
       <h2>MAKE AN APPOINTMENT</h2>
       <p>
-        Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-        consectetur velit
+        Scheduling an appointment with us is quick and easy!
       </p>
     </div>
     <!-- End Section Title -->
@@ -716,8 +715,7 @@
     <div class="container section-title" data-aos="fade-up">
       <h2>Departments</h2>
       <p>
-        Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-        consectetur velit
+        We have specialized departments to cater to all your needs efficiently
       </p>
     </div>
     <!-- End Section Title -->
@@ -895,8 +893,7 @@
     <div class="container section-title" data-aos="fade-up">
       <h2>Testimonials</h2>
       <p>
-        Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-        consectetur velit
+        Hear what our customers have to say about us!
       </p>
     </div>
     <!-- End Section Title -->
@@ -1186,8 +1183,7 @@
     <div class="container section-title" data-aos="fade-up">
       <h2>Gallery</h2>
       <p>
-        Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-        consectetur velit
+        Explore our collection of images showcasing our best work, moments, and experiences.
       </p>
     </div>
     <!-- End Section Title -->
@@ -1329,8 +1325,7 @@
   <!-- /Gallery Section -->
 
   <!-- Pricing Section -->
-  <section id="pricing" class="pricing section">
-    <!-- Section Title -->
+  <!-- <section id="pricing" class="pricing section">
     <div class="container section-title" data-aos="fade-up">
       <h2>Pricing</h2>
       <p>
@@ -1338,8 +1333,6 @@
         consectetur velit
       </p>
     </div>
-    <!-- End Section Title -->
-
     <div class="container">
       <div class="row gy-3">
         <div class="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="100">
@@ -1358,7 +1351,7 @@
             </div>
           </div>
         </div>
-        <!-- End Pricing Item -->
+        
 
         <div class="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="200">
           <div class="pricing-item featured">
@@ -1376,7 +1369,7 @@
             </div>
           </div>
         </div>
-        <!-- End Pricing Item -->
+        
 
         <div class="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
           <div class="pricing-item">
@@ -1394,7 +1387,7 @@
             </div>
           </div>
         </div>
-        <!-- End Pricing Item -->
+        
 
         <div class="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
           <div class="pricing-item">
@@ -1413,21 +1406,16 @@
             </div>
           </div>
         </div>
-        <!-- End Pricing Item -->
+
       </div>
     </div>
-  </section>
-  <!-- /Pricing Section -->
+  </section> -->
 
   <!-- Faq Section -->
   <section id="faq" class="faq section light-background">
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
       <h2>Frequently Asked Questions</h2>
-      <p>
-        Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-        consectetur velit
-      </p>
     </div>
     <!-- End Section Title -->
 
@@ -1536,16 +1524,16 @@
     <div class="container section-title" data-aos="fade-up">
       <h2>Contact</h2>
       <p>
-        Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-        consectetur velit
+        Have questions, feedback, or just want to say hello? We'd love to hear from you!
       </p>
     </div>
     <!-- End Section Title -->
 
     <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
+      <!-- svelte-ignore a11y_missing_attribute -->
       <iframe
         style="border:0; width: 100%; height: 370px;"
-        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15227.425176062266!2d78.49840406711714!3d17.418682827839977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9982d63f03cb%3A0x3efa5b891dbe4d88!2sBoudha%20Nagar%2C%20Warasiguda%2C%20Boudhanagar%20Colony%2C%20Hyderabad%2C%20Telangana%20500061!5e0!3m2!1sen!2sin!4v1746530036965!5m2!1sen!2sin"
         frameborder="0"
         allowfullscreen=""
         loading="lazy"
@@ -1566,7 +1554,9 @@
               >
                 <i class="bi bi-geo-alt"></i>
                 <h3>Address</h3>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>H.No 12-11-1035, Bhodha Nagar,</p>
+                <p>Warisguda, Secundrabad - 500061,</p>
+                <p>Hyderabad Telangana.</p>
               </div>
             </div>
             <!-- End Info Item -->
@@ -1579,7 +1569,7 @@
               >
                 <i class="bi bi-telephone"></i>
                 <h3>Call Us</h3>
-                <p>+1 5589 55488 55</p>
+                <p>+91 9704876041</p>
               </div>
             </div>
             <!-- End Info Item -->
@@ -1592,7 +1582,7 @@
               >
                 <i class="bi bi-envelope"></i>
                 <h3>Email Us</h3>
-                <p>info@example.com</p>
+                <p>Othamg9@gmail.com</p>
               </div>
             </div>
             <!-- End Info Item -->
@@ -1672,15 +1662,15 @@
     <div class="row gy-4">
       <div class="col-lg-4 col-md-6 footer-about">
         <a href="index.html" class="logo d-flex align-items-center">
-          <span class="sitename">Medicio</span>
+          <span class="sitename">Relex Man Power</span>
         </a>
         <div class="footer-contact pt-3">
-          <p>A108 Adam Street</p>
-          <p>New York, NY 535022</p>
+          <p>Warisguda </p>
+          <p>Hyderabad Telangana, India 535022</p>
           <p class="mt-3">
-            <strong>Phone:</strong> <span>+1 5589 55488 55</span>
+            <strong>Phone:</strong> <span>+91 9704876041</span>
           </p>
-          <p><strong>Email:</strong> <span>info@example.com</span></p>
+          <p><strong>Email:</strong> <span>Othamg9@gmail.com</span></p>
         </div>
         <div class="social-links d-flex mt-4">
           <a href=""><i class="bi bi-twitter-x"></i></a>
